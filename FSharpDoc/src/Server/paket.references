@@ -1,0 +1,5 @@
+MongoDB.Driver
+group Server
+FSharp.Core
+Saturn
+Thoth.Json.Giraffe

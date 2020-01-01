@@ -1,0 +1,20 @@
+﻿<Window x:Class="LanucherView.WWindows.ProfileViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LanucherView.WWindows"
+        mc:Ignorable="d"
+        Title="ProfileViewer" Height="450" Width="800"
+        DataContext="{Binding ProfileViewer}"
+        Closing="{Binding ClosingWindow}">
+    <StackPanel>
+        <TextBlock Text="{Binding PersonNick}"></TextBlock>
+        <TextBlock Text="{Binding JoinDate}"></TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <Button IsEnabled="{Binding CanJoin}">
+                <TextBlock Text="{Binding FriendActionText}"></TextBlock>
+            </Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

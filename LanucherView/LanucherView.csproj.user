@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Controls\UserMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DefaultPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Lobby.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\MenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WWindows\LobbyCreator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WWindows\ProfileViewer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WWindows\RegisterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\UserMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DefaultPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Lobby.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\MenuPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControl1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WWindows\LobbyCreator.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WWindows\ProfileViewer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WWindows\RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
