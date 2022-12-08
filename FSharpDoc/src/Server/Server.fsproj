@@ -16,7 +16,7 @@
     <PackageReference Include="mongocsharpdriver" Version="2.10.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.10.0" />
     <PackageReference Include="MongoDB.FSharp" Version="0.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Shared4\Shared4.fsproj" />
